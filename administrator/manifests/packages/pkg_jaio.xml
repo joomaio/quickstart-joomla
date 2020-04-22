@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="package" method="upgrade">
+	<name>Jaio - Package For UI Solution</name>
+	<packagename>jaio</packagename>
+	<title>Package Responsive Framework</title>
+	<author>Joomaio inc.</author>
+	<creationDate>28-08-2019</creationDate>
+	<authorUrl>joomaio.com</authorUrl>
+	<copyright>commercial</copyright>
+	<license>joomaio license</license>
+	<version>0.3</version>
+	<description>UI Solution based Foundation6, Bootstrap, W3css, Materialize, Reactjs..</description>
+	<scriptfile>pkg_script.php</scriptfile>
+  <files folder="packages">
+    <file type="library" id="pkg_jaio">pkg_jaio.zip</file>
+    <file type="plugin" id="plg_jaio" group="system">plg_jaio.zip</file>
+  </files>
+</extension>

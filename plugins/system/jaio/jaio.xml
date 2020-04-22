@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>PLG_SYSTEM_JAIO</name>
+	<author>Joomaio inc.</author>
+	<creationDate>28-08-2019</creationDate>
+	<authorUrl>joomaio.com</authorUrl>
+	<copyright>commercial</copyright>
+	<license>joomaio license</license>
+	<version>0.2</version>
+	<description>jaio - UI solution</description>
+	<files>
+		<filename plugin="jaio">jaio.php</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jaio/fields">
+		
+			<fieldset name="basic" label="PLG_SYSTEM_JAIO_INFORMATION_LABEL">
+				
+				 
+			 			
+			</fieldset> 
+   		</fields>
+   </config>
+   <updateservers>
+		<server type="extension" priority="1" name="Jaio auto updater">https://jooma.io/jaio/jaio-update.xml</server>
+	</updateservers>
+</extension>
