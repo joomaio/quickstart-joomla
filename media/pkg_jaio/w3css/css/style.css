@@ -1,0 +1,91 @@
+body.page-material .w3-main{
+    margin-left:250px;
+}
+
+#mySidebar, #showSidebar{
+    z-index:3;
+    width:250px;
+}
+
+.home1 #mySidebar{
+    z-index:3;
+    width:270px;
+}
+
+.home1 .w3-theme {color:#fff !important;background-color:#4CAF50 !important}
+.home1 .w3-btn {background-color:#4CAF50;margin-bottom:4px}
+.home1 .w3-code{border-left:4px solid #4CAF50}
+.home1 .myMenu {margin-bottom:150px}
+.home1 .w3-main{
+    margin-left:270px;
+    margin-top: 117px;
+}
+
+.home2 .w3-main{
+    margin-left:300px;
+}
+
+.home2 #mySidebar{
+    z-index:3;
+    width:300px;
+}
+
+body.page-mail,.page-mail h1,.page-mail h2,.page-mail h3,.page-mail h4,.page-mail h5 {font-family: "RobotoDraft", "Roboto", sans-serif;}
+.page-mail .w3-bar-block .w3-bar-item {
+    padding:16px
+}
+.page-mail #mySidebar{
+    z-index:3;
+    width:320px;
+}
+
+.page-mail .w3-main{
+    margin-left:320px;
+}
+body.page-material {
+    font-family: "Roboto", sans-serif
+}
+.page-material .w3-bar-block .w3-bar-item {
+    padding:16px;font-weight:bold
+}
+
+body.page-mobile{
+    max-width:400px;
+    margin:16px;
+    border:1px solid #ccc;
+}
+
+.page-mobile .w3-theme {
+    color: #fff !important;
+    background-color: #2196f3 !important;
+}
+
+.page-mobile .w3-theme-l2 {
+    color: #000 !important;
+    background-color: #79bff8 !important;
+}
+.page-mobile .w3-theme-dark {
+    color: #fff !important;
+    background-color: #074b83 !important;
+}
+
+.page-mobile .w3-theme-action {
+    color: #fff !important;
+    background-color: #074b83 !important;
+}
+
+#demo-login-form {
+    max-width: 700px;
+    margin: auto;
+}
+
+.w3-bar.jmoddiv.jmodinside {
+    position: static;
+}
+
+.w3-main {
+    margin-left: 250px;
+}
+.w3-dropdown-hover button i {
+    padding-left: 10px;
+}

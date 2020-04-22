@@ -1,0 +1,109 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.blog-detail-text-muted {
+  font-size: 12px;
+  opacity: 0.7;
+}
+ul:not(.browser-default) li {
+  list-style-type: none;
+}
+.blog-related li:first-child {
+  border-top: 1px solid #e0e0e0;
+  margin-bottom: 1px;
+}
+.blog-related li {
+  height: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-related li a:hover {
+  color: #90dcce;
+}
+.blog-related li a {
+  color: #42c4ac;
+  display: block;
+  transition: color .3s;
+}
+.blog-related li .cx {
+  margin-left: 20px;
+  line-height: 80px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.blog-related li .ei {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 80px;
+  float: right;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+#system-message .card {
+  padding: 10px;
+}
+/* site 2 */
+
+
+.parallax-template nav.white ul a,
+.parallax-template nav.white .brand-logo {
+  color: #444;
+}
+
+.parallax-template p {
+  line-height: 2rem;
+}
+.parallax-template .sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-template .parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-template .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-template .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .parallax-template #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .parallax-template #index-banner .section {
+    top: 0;
+  }
+}
+
+.parallax-template .icon-block {
+  padding: 0 15px;
+}
+.parallax-template .icon-block .material-icons {
+  font-size: inherit;
+}
+
+.parallax-template footer.page-footer {
+  margin: 0;
+}
