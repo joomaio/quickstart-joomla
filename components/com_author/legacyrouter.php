@@ -88,7 +88,8 @@ class AuthorRouterRulesLegacy implements JComponentRouterRulesInterface
 			unset( $query['author_id'] ) ;
 			$query['Itemid'] = self::$found[$author];		
 		}else{
-			if( isset( $query['Itemid'] ) ) $query['Itemid'] = self::$items[0]->id ; // get first menu item
+			if( isset( $query['Itemid'] ) && !empty( self::$items[0] ) ) 
+				$query['Itemid'] = self::$items[0]->id ; // get first menu item
 		}
 		
 		$total = count($segments);

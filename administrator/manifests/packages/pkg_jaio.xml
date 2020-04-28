@@ -11,8 +11,11 @@
 	<version>0.3</version>
 	<description>UI Solution based Foundation6, Bootstrap, W3css, Materialize, Reactjs..</description>
 	<scriptfile>pkg_script.php</scriptfile>
-  <files folder="packages">
-    <file type="library" id="pkg_jaio">pkg_jaio.zip</file>
-    <file type="plugin" id="plg_jaio" group="system">plg_jaio.zip</file>
-  </files>
+	<files folder="packages">
+		<file type="library" id="pkg_jaio">pkg_jaio.zip</file>
+		<file type="plugin" id="plg_jaio" group="system">plg_jaio.zip</file>
+	</files>
+	<extensionset name="Joomla Core" description="Joomla! Core">
+		<extension name="Jaio - Package For UI Solution" element="jaio" type="file" version="0.3" detailsurl="http://localhost:8080/update/administrator/manifests/packages/pkg_jaio.xml"/>
+	</extensionset>
 </extension>

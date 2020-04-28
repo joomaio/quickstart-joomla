@@ -57,7 +57,7 @@
 				type="list"
 				label="JGLOBAL_PAGINATION_LABEL"
 				description="JGLOBAL_PAGINATION_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
 				<option value="0">JHIDE</option>
@@ -70,7 +70,7 @@
 				type="list"
 				label="JGLOBAL_PAGINATION_RESULTS_LABEL"
 				description="JGLOBAL_PAGINATION_RESULTS_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
 				<option value="0">JHIDE</option>
@@ -91,10 +91,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_TITLE_LABEL"
 				description="JGLOBAL_SHOW_TITLE_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -104,10 +104,10 @@
 				type="list"
 				label="JGLOBAL_LINKED_TITLES_LABEL"
 				description="JGLOBAL_LINKED_TITLES_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JNO</option>
 				<option value="1">JYES</option>
 			</field>
@@ -117,10 +117,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_INTRO_LABEL"
 				description="JGLOBAL_SHOW_INTRO_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -130,11 +130,10 @@
 				type="list"
 				label="COM_AUTHOR_FIELD_INFOBLOCK_POSITION_LABEL"
 				description="COM_AUTHOR_FIELD_INFOBLOCK_POSITION_DESC"
-				default=""
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">COM_AUTHOR_FIELD_OPTION_ABOVE</option>
 				<option value="1">COM_AUTHOR_FIELD_OPTION_BELOW</option>
 				<option value="2">COM_AUTHOR_FIELD_OPTION_SPLIT</option>
@@ -145,10 +144,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_CATEGORY_LABEL"
 				description="JGLOBAL_SHOW_CATEGORY_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -158,10 +157,10 @@
 				type="list"
 				label="JGLOBAL_LINK_CATEGORY_LABEL"
 				description="JGLOBAL_LINK_CATEGORY_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JNO</option>
 				<option value="1">JYES</option>
 			</field>
@@ -171,10 +170,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_AUTHOR_LABEL"
 				description="JGLOBAL_SHOW_AUTHOR_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -184,10 +183,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_PUBLISH_DATE_LABEL"
 				description="JGLOBAL_SHOW_PUBLISH_DATE_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -197,10 +196,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_NAVIGATION_LABEL"
 				description="JGLOBAL_SHOW_NAVIGATION_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -210,7 +209,7 @@
 				type="list"
 				label="JGLOBAL_SHOW_READMORE_LABEL"
 				description="JGLOBAL_SHOW_READMORE_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
 				<option value="0">JHIDE</option>
@@ -222,7 +221,7 @@
 				type="list"
 				label="JGLOBAL_SHOW_READMORE_TITLE_LABEL"
 				description="JGLOBAL_SHOW_READMORE_TITLE_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
 				<option value="0">JHIDE</option>
@@ -234,10 +233,10 @@
 				type="list"
 				label="JGLOBAL_SHOW_HITS_LABEL"
 				description="JGLOBAL_SHOW_HITS_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -247,10 +246,10 @@
 				type="list"
 				label="COM_AUTHOR_FIELD_SHOW_TAGS_LABEL"
 				description="COM_AUTHOR_FIELD_SHOW_TAGS_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
-				<option value="use_article">COM_AUTHOR_FIELD_VALUE_USE_ARTICLE_SETTINGS</option>
+				
 				<option value="0">JHIDE</option>
 				<option value="1">JSHOW</option>
 			</field>
@@ -262,7 +261,7 @@
 				type="list"
 				label="JGLOBAL_SHOW_FEED_LINK_LABEL"
 				description="JGLOBAL_SHOW_FEED_LINK_DESC"
-				useglobal="true"
+				default="1"
 				class="chzn-color"
 				>
 				<option value="0">JHIDE</option>
@@ -274,7 +273,7 @@
 				type="list"
 				label="JGLOBAL_FEED_SUMMARY_LABEL"
 				description="JGLOBAL_FEED_SUMMARY_DESC"
-				useglobal="true"
+				default="1"
 				>
 				<option value="0">JGLOBAL_INTRO_TEXT</option>
 				<option value="1">JGLOBAL_FULL_TEXT</option>
