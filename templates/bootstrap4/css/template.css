@@ -770,3 +770,17 @@ body.rfmodal .btn-group button.btn{
   }
 }
 
+/* fix 1637: menu override part of content */
+/* for structure 8-4 and structure left: resize logo image */
+.header nav a img{
+  height: 35px;
+  width:auto;
+}
+/* for structure left sidebar: margin top for the content */
+.row.no-gutters{
+  margin-top:70px;
+}
+/* for structure left */
+.row.no-gutters .card-header{
+  background-color:white;
+}

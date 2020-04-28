@@ -1,7 +1,10 @@
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );
 
 	use Jaio\UI\bootstrap4;
-
+	$filename = JPATH_ROOT . "/media/pkg_jaio/bootstrap4/";
+	if(!JPluginHelper::isEnabled('system', 'jaio') || !file_exists($filename)){
+		die ('<p style="color: red">Please install Package Jaio and public Plugin Jaio.</p>');
+	}
 	$document = JFactory::getDocument();
 	$app  = JFactory::getApplication();
 
