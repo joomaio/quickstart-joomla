@@ -19,8 +19,8 @@
 		<folder>views</folder>
 		<folder>helpers</folder>
 	</files>
-	<languages folder="site">
-		<language tag="en-GB">language/en-GB.com_author.ini</language>
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB/en-GB.com_author.ini</language>
 	</languages>
 	<administration>
 		<menu img="class:banners">com_author</menu>
@@ -30,9 +30,9 @@
 			<filename>controller.php</filename>
 			<filename>author.php</filename>
 		</files>
-		<languages folder="admin">
-			<language tag="en-GB">language/en-GB.com_author.ini</language>
-			<language tag="en-GB">language/en-GB.com_author.sys.ini</language>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_author.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_author.sys.ini</language>
 		</languages>
 	</administration>
 </extension>

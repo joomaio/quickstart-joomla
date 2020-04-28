@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="plugin" group="content">
+	<name>plg_author</name>
+	<author>Joomaio inc.</author>
+	<creationDate>04-07-2019</creationDate>
+	<copyright>commercial</copyright>
+	<license>joomaio license</license>
+	<authorEmail>product@joomaio.com</authorEmail>
+	<authorUrl>joomaio.com</authorUrl>
+	<version>0.1</version>
+	<description>PLG_AUTHOR_DESCRIPTION_TEXT</description>
+	<files>
+		<filename plugin="author">author.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_author.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_author.sys.ini</language>
+	</languages>
+</extension>

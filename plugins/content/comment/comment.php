@@ -61,7 +61,7 @@ class PlgContentComment extends JPlugin
 			// get url of article
 			$url = JRoute::_(ContentHelperRoute::getArticleRoute($row->id, $row->catid, $row->language));
 
-			return '<span class="mr-3">'.JText::_('COM_COMMENT_COMMENT_COUNT').': <a href="'.$url.'/#article-comment">'.$countComment.'</a></span>';
+			return '<span>'.JText::_('COM_COMMENT_COMMENT_COUNT').': <a href="'.$url.'/#article-comment">'.$countComment.'</a></span>';
 		}
 		elseif($component == 'article' && $enablecomment=='1') // if( setting allow comment = ON )
 		{
